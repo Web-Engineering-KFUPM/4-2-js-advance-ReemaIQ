@@ -27,7 +27,7 @@ const Student = {
     gpa: 4.0,
 
     getFullName() {
-        return `${this.firstName} ${this.lastName}`;
+        return (this.firstName + " " +  this.lastName);
     },
     getGPA() {
         return this.gpa;
