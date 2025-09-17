@@ -67,6 +67,10 @@ Task:
 1) Create a String object or plain string.
 2) Use .charAt(index) and .length to output characters and size.
 */
+const str = "Reema IQ";
+console.log(str.length);
+console.log(str.charAt(0));
+console.log(str.charAt(4));
 
 // ===================================
 // TODO-4: DATE — day, month, and year
