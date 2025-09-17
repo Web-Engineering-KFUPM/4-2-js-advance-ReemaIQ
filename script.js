@@ -119,7 +119,8 @@ function findMax(arr) {
 }
 
     try {
-        const max = findMax([]);
+        console.log(findMax([1,2,3]));
+        const max = findMax([]); //this will throw an error
         console.log(max);
     }
     catch (e) {
@@ -130,7 +131,6 @@ function findMax(arr) {
 
 }
 
-console.log(findMax([1,2,3]));
 
 // ===================================================================================
 // TODO-7: REGEX + forEach — find words containing 'ab' and log matches from the list
